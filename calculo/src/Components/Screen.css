@@ -1,16 +1,18 @@
 .input{
     height: 75px;
-    border-radius: 50px;
-    margin-bottom: 20px;
+    width: 80%;
+    background-color: var(--light-blue);
+    border-left: 10px solid var(--medium-blue);
+    border-top: 12px solid var(--medium-blue);
     display: flex;
+    margin: auto;
     justify-content: flex-end;
     align-items: center;
-    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: var(--green); 
     font-size: 30px;
-    background-color: #0a0a23;
-    color: white;
-    padding: 11px;
+    font-family: "Dinotopia";
     padding-right: 11px 30px 11px 11px;
-    border: 1px solid #888;
-    box-sizing: -1px 4px 1px 1px white;
+   
 }

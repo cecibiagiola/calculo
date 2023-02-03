@@ -1,5 +1,8 @@
 import React from 'react'
-import './Button.css'
+import './Button.css';
+
+
+
 
 const Button = (props) => {
   const isSymbol = value =>{
@@ -7,11 +10,17 @@ const Button = (props) => {
   };
 
   return (
-    <div className={`button-container ${isSymbol(props.children) ? 'symbol' : null}`.trimEnd()}
+    <div className={`button-container ${isSymbol(props.children) ? 'symbol' :  'button-number' }`.trimEnd()}
     onClick={() => props.onHandleClick(props.children)}>
         {props.children}
-    </div>
+      
+        
+    </div> 
+    
+
   )
 }
 
 export  {Button}
+
+

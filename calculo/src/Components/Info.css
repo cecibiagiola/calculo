@@ -1,0 +1,42 @@
+.aside{
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.info{
+    background-color: var(--medium-pink);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.cat-image{
+    width: 70%;
+    height: 400px;
+}
+
+.text-info{
+    width: 80%;
+}
+
+.aside-title{
+    font-family: 'DinoTopia';
+    font-size: 48px ;
+    color: var(--green);
+    padding: 0;
+}
+
+.text-info{
+    width: 70%;
+    font-family: 'Helvetica';
+    text-align: justify;
+    font-size: 18px;
+
+}

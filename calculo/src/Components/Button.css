@@ -1,28 +1,48 @@
+
 .button-container{
-    height: 83px;
+    height: 85px;
     display: flex;
-    flex: 1 1;
-    justify-content: center;
+    flex: 1 1; 
+    position:relative;
+    resize: none;
+    justify-content: right;
     align-items: center;
+    font-family: 'DinoTopia';
     font-weight: bold;
-    font-size: 38px;
-    background-color: blue;
+    font-size: 28px;
+    padding-right: 24px;
     color: white;
-    border-radius: 25px;
-    border: 2px solid white;
+    border-radius: 50px; 
     margin: 4px;
     cursor: pointer;
     user-select: none;
+  
 }
 
+
 .button-container:hover{
-    background-color: darkorchid;
+    color: var(--green)
+}
+
+
+.button-number{
+    background-image: url("../img/number.png");
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
 }
 
 .symbol{
-    background-color: brown;
+    background-color: var(--light-green);
+    border: none;
+    box-shadow: 2px -2px 0px 0px rgba(95,135,70,1);
+    -webkit-box-shadow: 2px -2px 0px 0px rgba(95,135,70,1);
+    -moz-box-shadow: 2px -2px 0px 0px rgba(95,135,70,1);
+   color: white;
+   justify-content: center;
+   padding: 0;
 }
 
 .symbol:hover{
-    background-color: chocolate;
+    color: var(--peachy);
 }

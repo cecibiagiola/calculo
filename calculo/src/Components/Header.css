@@ -1,0 +1,27 @@
+.header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+
+.title{
+    font-family: "Dinotopia";
+    font-size: 70px;
+    color: var(--green);
+    letter-spacing: 0.1em;
+    margin-bottom: 0px;
+    
+  } 
+  
+  .subtitle{
+    font-family: "Light";
+    font-size: 36px;
+    font-weight: lighter;
+    color: var(--grey);
+    margin-top: 10px;  
+  }
