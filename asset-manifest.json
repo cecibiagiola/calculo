@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/calculo/static/css/main.22504e37.css",
+    "main.css": "/calculo/static/css/main.62d7a3c1.css",
     "main.js": "/calculo/static/js/main.a65fa160.js",
     "static/media/Helvetica.ttf": "/calculo/static/media/Helvetica.06113bf748ae7dc33e05.ttf",
     "static/media/DinoTopia-Thin.ttf": "/calculo/static/media/DinoTopia-Thin.967b5449c1e4d822127e.ttf",
     "static/media/DinoTopia.ttf": "/calculo/static/media/DinoTopia.00e8e2c50f8995233cdb.ttf",
     "static/media/cat.jpg": "/calculo/static/media/cat.b6c22a8f4a845db131ff.jpg",
     "index.html": "/calculo/index.html",
-    "main.22504e37.css.map": "/calculo/static/css/main.22504e37.css.map",
+    "main.62d7a3c1.css.map": "/calculo/static/css/main.62d7a3c1.css.map",
     "main.a65fa160.js.map": "/calculo/static/js/main.a65fa160.js.map"
   },
   "entrypoints": [
-    "static/css/main.22504e37.css",
+    "static/css/main.62d7a3c1.css",
     "static/js/main.a65fa160.js"
   ]
 }
