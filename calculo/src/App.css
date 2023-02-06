@@ -56,9 +56,9 @@
 }
 
 @media screen and (max-width: 640px) {
-  .App{
+  /* .App{
     flex-wrap: wrap;
-  }
+  } */
   
   
   .calculator-container{
