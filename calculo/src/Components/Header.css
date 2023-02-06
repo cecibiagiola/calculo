@@ -25,3 +25,17 @@
     color: var(--grey);
     margin-top: 10px;  
   }
+
+  @media screen and (max-width: 640px){
+    .header{
+      margin-bottom: 0;
+    }
+    
+    .title{
+      font-size: 48px;
+    }
+    .subtitle{
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }

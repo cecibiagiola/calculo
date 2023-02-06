@@ -41,6 +41,13 @@
   -moz-box-shadow: 12px -6px 0px 6px rgba(244,207,201,0.85);
   
 }
+
+.first-row{
+  background-color: blueviolet;
+  height: 50px;
+}
+
+
 .row {
   margin: 4px;
   display: flex;
@@ -48,9 +55,16 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 640px) {
+  .App{
+    flex-wrap: wrap;
+  }
+  
+  
   .calculator-container{
-    width: 300px;
+    width: 100%
+    
+   
     }
     .title{
       font-size: 24px;

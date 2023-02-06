@@ -6,13 +6,13 @@ const Info = () => {
     return (
         <aside className='aside'>
             <div className='info'>
-                <h2 className='aside-title'>Un titulo</h2>
-                <img 
+                <h2 className='aside-title'>Info mucho muy importante</h2>
+                <img
                     className='cat-image'
                     src={Cat}
                     alt='gatito'
                 />
-                <p className='text-info'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit </p>
+                <p className='text-info'> No utilice ésta calculadora en situaciones reales como por ejemplo en su trabajo o en parciales, a menos que desee fracasar miserablemente. Desde la administración no nos hacemos responsables por los daños o perjuicios. </p>
             </div>
 
         </aside>

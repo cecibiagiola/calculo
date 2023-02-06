@@ -25,6 +25,15 @@ const Calculator = () => {
     <div className='calculator'>
         <div className='calculator-container'>
         <Screen input={input}/>
+        <div className='row'>
+          <ClearButton
+              text='DEL' 
+              onHandleClick={() => setInput('')}           
+            /> 
+            <Button onHandleClick={addInput}>%</Button>
+            <Button onHandleClick={addInput}>^</Button> 
+            <Button onHandleClick={addInput}>/</Button>
+          </div>
           <div className='row'>
             <Button onHandleClick={addInput}>1</Button>
             <Button onHandleClick={addInput}>2</Button>
@@ -41,19 +50,13 @@ const Calculator = () => {
             <Button onHandleClick={addInput}>7</Button>
             <Button onHandleClick={addInput}>8</Button>
             <Button onHandleClick={addInput}>9</Button>
-            <Button onHandleClick={addInput}>X</Button>
+            <Button onHandleClick={addInput}>*</Button>
           </div>
           <div className='row'>
-            <Button onHandleClick={calculate}>=</Button>
+            <Button onHandleClick={addInput}> </Button>
             <Button onHandleClick={addInput}>0</Button>
             <Button onHandleClick={addInput}>.</Button>
-            <Button onHandleClick={addInput}>/</Button> 
-          </div>
-          <div className='row'>
-            <ClearButton
-              text='Clear' 
-              onHandleClick={() => setInput('')}           
-            />
+            <Button onHandleClick={calculate}>=</Button> 
           </div>
         </div> 
     </div>

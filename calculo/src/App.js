@@ -8,6 +8,7 @@ import {Header} from './Components/Header';
 import { Calculator } from './Components/Calculator';
 import {Main} from './Components/Main';
 import {Info} from './Components/Info';
+import { Footer } from './Components/Footer';
 
 
 
@@ -22,6 +23,7 @@ function App() {
           <Calculator />
           <Info />
         </Main>
+        <Footer />
     </div>
   );
 }

@@ -5,3 +5,11 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width: 640px){
+    .calculator{
+        width: 100%;
+        background-color: transparent;
+        margin-right: 10px;
+    }
+}

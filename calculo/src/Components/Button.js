@@ -6,7 +6,7 @@ import './Button.css';
 
 const Button = (props) => {
   const isSymbol = value =>{
-    return isNaN(value) && (value !=='.') && (value !=='=');
+    return isNaN(value) && (value !=='.')  && (value !==' ')
   };
 
   return (
