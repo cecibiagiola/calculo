@@ -19,47 +19,17 @@
 
 .App {
   width: 100%;
-  height: calc(100vh- 200px); 
+  height: calc(100vh- 200px);  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: nowrap;
-}
-
-
-
-.calculator-container{
-  width: 400px;
-  height: 600px;
-  padding: 20px; 
-  margin-bottom: 12px;
-  background-color: var(--light-pink);
-  border-radius: 24px;
-  box-shadow: 12px -6px 0px 6px rgba(244,207,201,0.85);
-  -webkit-box-shadow: 12px -6px 0px 6px rgba(244,207,201,0.85);
-  -moz-box-shadow: 12px -6px 0px 6px rgba(244,207,201,0.85);
   
 }
 
-.first-row{
-  background-color: blueviolet;
-  height: 50px;
-}
 
 
-.row {
-  margin: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-@media screen and (max-width: 640px) {
-  /* .App{
-    flex-wrap: wrap;
-  } */
-  
+ @media screen and (max-width: 640px) {
   
   .calculator-container{
     width: 100%
@@ -69,4 +39,4 @@
     .title{
       font-size: 24px;
     }
-}
+} 

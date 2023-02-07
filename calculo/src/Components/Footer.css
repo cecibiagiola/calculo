@@ -39,7 +39,6 @@ p {
 @media screen and (max-width: 640px){
     .footer{
         flex-direction: column;
-        bottom: 0;
-        flex-wrap: wrap;
+        
     }
 }
